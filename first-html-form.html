@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Add user</legend>
+            <label for="firstname">First Name: </label>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname" name="lastname"><br>
+            <label for="emailadd">Email Address: </label>
+            <input type="email" id="emailadd" name="emailadd"><br>
+
+            <label for="status">Status: </label>
+                <select name="status" id="status">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select><br>
+            <p>Choose your favourite programming language: </p>
+                <input type="radio" id="html" name="lang" value="html">
+                <label for ="">HTML</label>
+                <input type="radio" id="css" name="lang" value="css">
+                <label for ="">CSS</label>
+                <input type="radio" id="javascript" name="lang" value="javascript">
+                <label for ="">JavaScript</label><br><br>
+            <textarea id="comments">Comments</textarea><br><br>
+            <label for="tdaydate">Current Date: </label>
+            <input type="date" id="tdaydate" name="tdaydate"><br><br>
+
+            <input type="checkbox" id="signup" name="signup" value="Sign">
+            <label for="signup">Sign up for the newsletter</label>
+            <input type="checkbox" id="agree" name="agree" value="Agree">
+            <label for="signup">Agree to terms and conditions</label>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
